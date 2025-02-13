@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section CSS */
+header{
+    background-image: url(Assets/Images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+header .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+/* NavBar Section CSS */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 65px;
+}
+
+nav img{
+    display: inline;
+    color: red;
+    width: 114px;
+    height: 50px; 
+    position: relative;
+    z-index: 10;
+}
