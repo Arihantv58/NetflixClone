@@ -1,42 +1,88 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
 }
 
 /* Header Section CSS */
-header{
+header {
     background-image: url(Assets/Images/bg.jpg);
-    height: 80vh;
+    height: 70vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
 }
 
-header .box{
-    height: 80vh;
+header .box {
+    height: 70vh;
     width: 100%;
-    opacity: 0.44;
-    background-color: black;
+    opacity: 0.65;
     position: absolute;
     top: 0;
+    background-color: black;
 }
 
 /* NavBar Section CSS */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
     max-width: 80vw;
+    justify-content: space-between;
     margin: auto;
-    height: 65px;
-}
+    display: flex;
+    align-items: center;
+    height: 62px;
+}s
 
-nav img{
-    display: inline;
+nav img {
     color: red;
     width: 114px;
-    height: 50px; 
     position: relative;
     z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: Arial, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana;
+    height: calc(100% - 62px);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 21px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 650;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 650;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    background-color: rgb(46, 44, 44);
+    height: 8px;
 }
