@@ -29,10 +29,15 @@ cd netflix-india-clone && open index.html
 
 ## Key Components 📚
 ├── index.html         - Main page structure
+
 ├── style.css          - All styling rules
+
 ├── Assets/            - Images and icons
+
 │   ├── Images/
+
 │   └── logo.svg
+
 └── README.md          - Project documentation
 
 ## Interactive Elements 🕹️
