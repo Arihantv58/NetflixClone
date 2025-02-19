@@ -2,9 +2,6 @@
 
 A responsive front-end clone of Netflix India's landing page built with HTML, CSS, and JavaScript. Perfect for understanding modern web development practices and Netflix-style UI implementation.
 
-![Preview](https://img.shields.io/badge/Preview-Live_Demo-blue) 
-![Tech Stack](https://img.shields.io/badge/Tech_Stack-HTML5-CSS3-JS-yellowgreen)
-
 ## Features ✨
 - Authentic Netflix UI replica
 - Responsive hero section with email signup
@@ -38,27 +35,43 @@ Key Components 📚
 └── README.md          - Project documentation
 
 ## Interactive Elements 🕹️
+
 ▶️ Video previews play on hover (TV sections)
+
 📥 FAQ accordion with toggle animations
+
 📧 Email validation with regex check
+
 🌐 Language selector placeholder
+
 🔴 Sign-in button interaction
 
 ## Responsive Breakpoints 📱
+
 Desktop: > 1300px
+
 Tablet: 768px - 1299px
+
 Mobile: < 767px
 
 ## Limitations ⚠️
+
 Static content (no real Netflix API integration)
+
 Placeholder videos (not actual Netflix content)
+
 Frontend-only implementation (no backend services)
 
 ## Contributing 🤝
+
 Fork the project
+
 Create your feature branch (git checkout -b feature/AmazingFeature)
+
 Commit changes (git commit -m 'Add some AmazingFeature')
+
 Push to branch (git push origin feature/AmazingFeature)
+
 Open a Pull Request
 
 ## Acknowledgements 🙏
