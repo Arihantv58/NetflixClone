@@ -26,7 +26,8 @@ git clone https://github.com/Arihantv58/NetflixClone.git
 
 3. Open in browser:
 cd netflix-india-clone && open index.html
-Key Components 📚
+
+## Key Components 📚
 ├── index.html         - Main page structure
 ├── style.css          - All styling rules
 ├── Assets/            - Images and icons
@@ -75,6 +76,9 @@ Push to branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 ## Acknowledgements 🙏
+
 Netflix® for design inspiration
+
 Font Awesome for icons
+
 Google Fonts for typefaces
